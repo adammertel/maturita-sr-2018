@@ -7,7 +7,7 @@ export default class AppStore {
   constructor() {
     this._map = observable.box(false);
     this._mapExtent = observable.box(
-      L.latLngBounds(L.latLng(20, 0), L.latLng(40, 50))
+      L.latLngBounds(L.latLng(47, 18), L.latLng(50, 23))
     );
   }
 

@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 3 versions", "ie >= 9"]
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "flow",
+    "react"
+  ],
+  "retainLines": true,
+  "plugins": ["transform-decorators-legacy", "transform-class-properties"]
+}
