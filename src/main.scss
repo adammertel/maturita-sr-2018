@@ -9,3 +9,12 @@ $family-primary: $family-serif;
 
 @import '~bulma/bulma';
 @import '~leaflet/dist/leaflet.css';
+
+#panel {
+  z-index: 1000;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  padding: 10px;
+  background-color: white;
+}
