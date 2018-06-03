@@ -10,7 +10,13 @@ const pointInPolygon = booleanPointInPolygon.default;
 var schools = {};
 var key = 'AqiGj_hcXmk8QUwzrcbjvXIPxZsWva6309l6TUtcFmGhz2j1vf2B4M-apV7RUG5H';
 
-var subjects = ['m', 'sj'];
+var sumArray = arr => {
+  let sum = 0;
+  arr.forEach(a => (sum += a));
+  return sum;
+};
+
+var subjects = ['m', 'sj', 'aj'];
 let subjectDone = 0;
 
 // load districts
@@ -78,7 +84,7 @@ var afterSubjectsDone = () => {
           try {
             const point = JSON.parse(geocodedData).resourceSets[0].resources[0]
               .point;
-            console.log(point);
+            //console.log(point);
             school.y = point.coordinates[0];
             school.x = point.coordinates[1];
 
@@ -95,16 +101,49 @@ var afterSubjectsDone = () => {
           }
         });
       });
-    }, si * 100);
+    }, si * 50);
   });
 
   const saveFile = () => {
     console.log('saving file');
 
+    // average grades per district
+    districtsJSON.features.map(district => {
+      const schoolsInDistrict = Object.values(schools).filter(
+        school => school.okres === district.properties.TXT
+      );
+      subjects.map(subject => {
+        const sumOfAllGrades = sumArray(
+          schoolsInDistrict.map(school => {
+            const students = parseInt(school[subject + '_n'], 10) || 0;
+            const grade = parseFloat(school[subject + '_z']) || 0;
+            //console.log(school.nazov, school.mesto, students, grade);
+            return students * grade;
+          })
+        );
+        const allStudents = sumArray(
+          schoolsInDistrict.map(school => {
+            const grade = parseFloat(school[subject + '_z']) || 0;
+            const students = parseInt(school[subject + '_n'], 10) || 0;
+            return grade ? students : 0;
+          })
+        );
+
+        console.log(
+          district.properties.TXT,
+          sumOfAllGrades,
+          allStudents,
+          schoolsInDistrict.length
+        );
+        district.properties['avg_' + subject] = sumOfAllGrades / allStudents;
+      });
+    });
+    fs.writeFile('okresy.json', JSON.stringify(districtsJSON));
     fs.writeFile('schools.json', JSON.stringify(schools));
   };
 
   const noSchools = Object.values(schools).length;
+
   const waitUntilAllGeocoded = () => {
     console.log('waiting', geocoded, '/', noSchools);
     if (geocoded === noSchools) {
