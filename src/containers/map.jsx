@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Base from './../base';
 import { observable, action } from 'mobx';
 import { observer } from 'mobx-react';
 import {
@@ -11,9 +12,11 @@ import {
   AttributionControl,
   Pane,
   Polygon,
-  CircleMarker
+  Marker,
+  Tooltip
 } from 'react-leaflet';
-require('leaflet.measure');
+import MarkerClusterGroup from 'react-leaflet-markercluster';
+require('leaflet.markercluster.placementstrategies');
 
 @observer
 export default class AppMap extends React.Component {
@@ -44,6 +47,30 @@ export default class AppMap extends React.Component {
 
   render() {
     const zoom = store.map ? store.map.getZoom() : 0;
+
+    const schoolsMarkers = Object.values(store.schools)
+      .filter(s => s[store.subject + '_n'])
+      //.filter((s, si) => si < 10)
+      .filter(s => parseInt(s[store.subject + '_z'], 10))
+      .filter(s => s.x && s.y)
+      .map((school, si) => {
+        const size = parseInt(school[store.subject + '_n'], 10) / 10 + 5;
+        return (
+          <Marker
+            key={si}
+            position={[parseFloat(school.y), parseFloat(school.x)]}
+            icon={Base.icon(
+              store.gradeColor(school[store.subject + '_z']),
+              size
+            )}
+          >
+            <Tooltip direction="right">
+              <h4>{school.nazov}</h4>
+            </Tooltip>
+          </Marker>
+        );
+      });
+
     return (
       <div className="map-wrapped" style={this.style()}>
         <Map
@@ -80,24 +107,18 @@ export default class AppMap extends React.Component {
               })}
           </Pane>
           <Pane>
-            {zoom > 9 &&
-              Object.values(store.schools)
-                .filter(s => s[store.subject + '_n'])
-                .filter(s => parseInt(s[store.subject + '_z'], 10))
-                .filter(s => s.x && s.y)
-                .map((school, si) => {
-                  return (
-                    <CircleMarker
-                      key={si}
-                      center={[school.y, school.x]}
-                      radius={school[store.subject + '_n'] / 30 + 3}
-                      fillOpacity={0.6}
-                      fillColor={store.gradeColor(school[store.subject + '_z'])}
-                      color="black"
-                      weight="1.5"
-                    />
-                  );
-                })}
+            <MarkerClusterGroup
+              showCoverageOnHover={false}
+              zoomToBoundsOnClick={true}
+              removeOutsideVisibleBounds={true}
+              elementsPlacementStrategy="clock"
+              animate={false}
+              singleMarkerMode={true}
+              spiderLegPolylineOptions={{ weight: 0 }}
+              clockHelpingCircleOptions={{ weight: 0 }}
+            >
+              {schoolsMarkers}
+            </MarkerClusterGroup>
           </Pane>
         </Map>
       </div>

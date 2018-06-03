@@ -9,6 +9,8 @@ $family-primary: $family-serif;
 
 @import '~bulma/bulma';
 @import '~leaflet/dist/leaflet.css';
+@import '~react-leaflet-markercluster/dist/styles.min.css';
+@import '~font-awesome/css/font-awesome.css';
 
 #panel {
   z-index: 1000;
@@ -17,4 +19,15 @@ $family-primary: $family-serif;
   right: 1%;
   padding: 10px;
   background-color: white;
+}
+
+// Markercluster styling
+.marker-cluster.marker-cluster-small,
+.marker-cluster.marker-cluster-medium,
+.marker-cluster.marker-cluster-large {
+  background: rgba(255, 255, 255, 0.5);
+  div {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
 }
