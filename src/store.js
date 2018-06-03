@@ -14,18 +14,24 @@ export default class AppStore {
     {
       id: 'sj',
       label: 'slovenský jazyk'
+    },
+    {
+      id: 'aj',
+      label: 'anglický jazyk B1'
     }
   ];
   districtColors = [
-    '#ffffe5',
-    '#f7fcb9',
-    '#d9f0a3',
-    '#addd8e',
-    '#78c679',
-    '#41ab5d',
-    '#238443',
-    '#006837',
-    '#004529'
+    '#a50026',
+    '#d73027',
+    '#f46d43',
+    '#fdae61',
+    '#fee08b',
+    '#ffffbf',
+    '#d9ef8b',
+    '#a6d96a',
+    '#66bd63',
+    '#1a9850',
+    '#006837'
   ].reverse();
 
   constructor() {
@@ -39,42 +45,12 @@ export default class AppStore {
     const schoolsData = require('./../data/schools.json');
     this.schools = schoolsData;
     this._districts = districtsData.features;
-
-    this._districts.map(district => {
-      const schoolsInDistrict = Object.values(this.schools).filter(
-        school => school.okres === district.properties.TXT
-      );
-      this.subjects.map(subject => {
-        const sumOfAllGrades = Base.sumArray(
-          schoolsInDistrict.map(school => {
-            const students = parseInt(school[subject.id + '_n'], 10) || 0;
-            const grade = parseFloat(school[subject.id + '_z']) || 0;
-            //console.log(school.nazov, school.mesto, students, grade);
-            return students * grade;
-          })
-        );
-        const allStudents = Base.sumArray(
-          schoolsInDistrict.map(school => {
-            const students = parseInt(school[subject.id + '_n'], 10) || 0;
-            return students;
-          })
-        );
-
-        /* console.log(
-          district.properties.TXT,
-          sumOfAllGrades,
-          allStudents,
-          schoolsInDistrict.length
-        ); */
-        district.properties['avg_' + subject.id] = sumOfAllGrades / allStudents;
-      });
-    });
   }
 
   gradeColor(grade) {
     return grade && grade > 1
       ? this.districtColors[
-          Math.ceil((grade - 1) / 4 * (this.districtColors.length - 1))
+          Math.ceil(0.0001 + (grade - 1) / 4 * (this.districtColors.length - 1))
         ]
       : 'grey';
   }

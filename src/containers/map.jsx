@@ -43,6 +43,7 @@ export default class AppMap extends React.Component {
   }
 
   render() {
+    const zoom = store.map ? store.map.getZoom() : 0;
     return (
       <div className="map-wrapped" style={this.style()}>
         <Map
@@ -63,35 +64,40 @@ export default class AppMap extends React.Component {
             />
           </LayerGroup>
           <Pane>
-            {store.districts.map(district => {
-              return (
-                <Polygon
-                  key={district.name}
-                  positions={district.geo}
-                  fillColor={store.gradeColor(district.grade)}
-                  fillOpacity={0.6}
-                  weight="0"
-                  smoothFactor="0"
-                />
-              );
-            })}
-          </Pane>
-          <Pane>
-            {Object.values(store.schools)
-              .filter(s => s[store.subject + '_n'])
-              .map((school, si) => {
+            {zoom < 11 &&
+              store.districts.map(district => {
                 return (
-                  <CircleMarker
-                    key={si}
-                    center={[school.y, school.x]}
-                    radius={school[store.subject + '_n'] / 30 + 5}
+                  <Polygon
+                    key={district.name}
+                    positions={district.geo}
+                    fillColor={store.gradeColor(district.grade)}
                     fillOpacity={0.6}
-                    fillColor={store.gradeColor(school[store.subject + '_z'])}
-                    color="black"
-                    weight="1.5"
+                    weight="1"
+                    color="white"
+                    smoothFactor="1"
                   />
                 );
               })}
+          </Pane>
+          <Pane>
+            {zoom > 9 &&
+              Object.values(store.schools)
+                .filter(s => s[store.subject + '_n'])
+                .filter(s => parseInt(s[store.subject + '_z'], 10))
+                .filter(s => s.x && s.y)
+                .map((school, si) => {
+                  return (
+                    <CircleMarker
+                      key={si}
+                      center={[school.y, school.x]}
+                      radius={school[store.subject + '_n'] / 30 + 3}
+                      fillOpacity={0.6}
+                      fillColor={store.gradeColor(school[store.subject + '_z'])}
+                      color="black"
+                      weight="1.5"
+                    />
+                  );
+                })}
           </Pane>
         </Map>
       </div>

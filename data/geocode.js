@@ -101,7 +101,7 @@ var afterSubjectsDone = () => {
           }
         });
       });
-    }, si * 50);
+    }, si * 150);
   });
 
   const saveFile = () => {
