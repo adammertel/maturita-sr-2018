@@ -21,6 +21,15 @@ $family-primary: $family-serif;
   background-color: white;
 }
 
+#district-panel {
+  z-index: 1000;
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  padding: 10px;
+  background-color: white;
+}
+
 // Markercluster styling
 .marker-cluster.marker-cluster-small,
 .marker-cluster.marker-cluster-medium,

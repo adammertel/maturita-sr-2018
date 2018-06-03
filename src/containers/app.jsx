@@ -5,6 +5,7 @@ import Base from './../base';
 import AppMap from './map';
 import ErrorBoundary from './errorboundary';
 import Panel from './panel';
+import DistrictPanel from './districtpanel';
 
 @observer
 export default class App extends React.Component {
@@ -17,6 +18,7 @@ export default class App extends React.Component {
       <div>
         <ErrorBoundary>
           <Panel />
+          <DistrictPanel />
           <AppMap />
         </ErrorBoundary>
       </div>

@@ -5,6 +5,7 @@ import turf from 'turf';
 export default class AppStore {
   @observable _mapExtent;
   @observable _subject;
+  @observable _overDistrict;
   _districts = [];
   subjects = [
     {
@@ -20,6 +21,7 @@ export default class AppStore {
       label: 'anglický jazyk B1'
     }
   ];
+
   districtColors = [
     '#a50026',
     '#d73027',
@@ -37,6 +39,7 @@ export default class AppStore {
   constructor() {
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
     this._map = observable.box(false);
+    this._overDistrict = observable.box(false);
     this._subject = observable.box('sj');
     this._mapExtent = observable.box(
       L.latLngBounds(L.latLng(47, 18), L.latLng(50, 23))
@@ -74,6 +77,25 @@ export default class AppStore {
     return toJS(this._mapExtent);
   }
   @computed
+  get overDistrict() {
+    console.log('overDistrict');
+    return store._overDistrict === false
+      ? false
+      : store._districts.find(
+          d => d.properties.TXT === toJS(store._overDistrict)
+        );
+  }
+
+  @computed
+  get overDistrictSchools() {
+    return store.overDistrict
+      ? Object.values(store.schools).filter(
+          school => school.okres === store.overDistrict.properties.TXT
+        )
+      : [];
+  }
+
+  @computed
   get subject() {
     return toJS(this._subject);
   }
@@ -92,6 +114,18 @@ export default class AppStore {
   mapMoved(e) {
     if (store.map) {
       store._mapExtent.set(store.map.getBounds());
+      if (store.map.getZoom() < 11) {
+        store.cancelOverDistrict();
+      }
     }
+  }
+
+  @action
+  cancelOverDistrict() {
+    store._overDistrict.set(false);
+  }
+  @action
+  setOverDistrict(district) {
+    store._overDistrict.set(district);
   }
 }

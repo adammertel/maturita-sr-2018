@@ -34,7 +34,7 @@ var Base = {
         (s / 2 + 2) +
         '" r="' +
         s / 2 +
-        '" stroke="black" stroke-width="1" fill="' +
+        '" stroke="black" stroke-width="1.5" fill="' +
         color +
         '" />' +
         '</svg>',

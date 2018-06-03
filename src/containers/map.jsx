@@ -45,6 +45,13 @@ export default class AppMap extends React.Component {
     store.loadMap(this.refs.map.leafletElement);
   }
 
+  handleOverDistrict(district) {
+    store.setOverDistrict(district.name);
+  }
+  handleOutDistrict() {
+    store.cancelOverDistrict();
+  }
+
   render() {
     const zoom = store.map ? store.map.getZoom() : 0;
 
@@ -102,6 +109,8 @@ export default class AppMap extends React.Component {
                     weight="1"
                     color="white"
                     smoothFactor="1"
+                    onMouseMove={this.handleOverDistrict.bind(this, district)}
+                    onMouseOut={this.handleOutDistrict.bind(this)}
                   />
                 );
               })}
@@ -115,7 +124,6 @@ export default class AppMap extends React.Component {
               animate={false}
               singleMarkerMode={true}
               spiderLegPolylineOptions={{ weight: 0 }}
-              clockHelpingCircleOptions={{ weight: 0 }}
             >
               {schoolsMarkers}
             </MarkerClusterGroup>
