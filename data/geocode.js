@@ -59,7 +59,7 @@ var afterSubjectsDone = () => {
 
   let geocoded = 0;
   Object.values(schools).map((school, si) => {
-    const location = school.ulica + ', ' + school.mesto;
+    const location = school.mesto + '/' + school.adresa + ', ' + school.nazov;
     const url = encodeURI(
       'https://dev.virtualearth.net/REST/v1/Locations/Slovakia/' +
         location +

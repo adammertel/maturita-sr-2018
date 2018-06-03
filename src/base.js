@@ -9,6 +9,12 @@ var Base = {
 
   label() {
     return 'todo example';
+  },
+
+  sumArray(arr) {
+    let sum = 0;
+    arr.forEach(a => (sum += a));
+    return sum;
   }
 };
 

@@ -8,7 +8,9 @@ import {
   WMSTileLayer,
   GeoJSON,
   ScaleControl,
-  AttributionControl
+  AttributionControl,
+  Pane,
+  Polygon
 } from 'react-leaflet';
 require('leaflet.measure');
 
@@ -59,6 +61,20 @@ export default class AppMap extends React.Component {
               attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
             />
           </LayerGroup>
+          <Pane>
+            {store.districts.map(district => {
+              console.log(district);
+              return (
+                <Polygon
+                  key={district.name}
+                  positions={district.geo}
+                  fillColor={store.gradeColor(district.grade)}
+                  fillOpacity={0.6}
+                  weight="0"
+                />
+              );
+            })}
+          </Pane>
         </Map>
       </div>
     );
