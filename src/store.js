@@ -37,10 +37,11 @@ export default class AppStore {
     );
     const districtsData = require('./../data/okresy.json');
     const schoolsData = require('./../data/schools.json');
+    this.schools = schoolsData;
     this._districts = districtsData.features;
 
     this._districts.map(district => {
-      const schoolsInDistrict = Object.values(schoolsData).filter(
+      const schoolsInDistrict = Object.values(this.schools).filter(
         school => school.okres === district.properties.TXT
       );
       this.subjects.map(subject => {

@@ -10,7 +10,8 @@ import {
   ScaleControl,
   AttributionControl,
   Pane,
-  Polygon
+  Polygon,
+  CircleMarker
 } from 'react-leaflet';
 require('leaflet.measure');
 
@@ -63,7 +64,6 @@ export default class AppMap extends React.Component {
           </LayerGroup>
           <Pane>
             {store.districts.map(district => {
-              console.log(district);
               return (
                 <Polygon
                   key={district.name}
@@ -71,9 +71,27 @@ export default class AppMap extends React.Component {
                   fillColor={store.gradeColor(district.grade)}
                   fillOpacity={0.6}
                   weight="0"
+                  smoothFactor="0"
                 />
               );
             })}
+          </Pane>
+          <Pane>
+            {Object.values(store.schools)
+              .filter(s => s[store.subject + '_n'])
+              .map((school, si) => {
+                return (
+                  <CircleMarker
+                    key={si}
+                    center={[school.y, school.x]}
+                    radius={school[store.subject + '_n'] / 30 + 5}
+                    fillOpacity={0.6}
+                    fillColor={store.gradeColor(school[store.subject + '_z'])}
+                    color="black"
+                    weight="1.5"
+                  />
+                );
+              })}
           </Pane>
         </Map>
       </div>
