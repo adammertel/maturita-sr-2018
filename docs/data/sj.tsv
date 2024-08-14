@@ -1,0 +1,677 @@
+skola	nazov	mesto	ulica	sj_n	sj_z
+611001	Gymnázium	Bratislava	Bilíkova 24	112	1.9
+611002	Gymnázium	Bratislava	Grösslingová 18	115	1.6
+611004	Gymnázium	Bratislava	Hubeného 23	44	2.4
+611005	Gymnázium I. Horvátha	Bratislava	I. Horvátha 14	57	2.6
+611006	Gymnázium	Bratislava	Ladislava Sáru 1	124	1.8
+611007	Gymnázium A. Einsteina	Bratislava	Einsteinova 35	81	2
+611008	Gymnázium	Bratislava	Metodova 2	157	2
+611009	Spojená škola - Gymnázium J. Hronca	Bratislava	Novohradská 3	158	1.7
+611010	Gymnázium L. Novomeského	Bratislava	Tomášikova 2	84	1.9
+611011	Gymnázium Jána Papánka	Bratislava	Vazovova 6	106	2.3
+611012	Športové gymnázium	Bratislava	Ostredková 10	53	2.9
+611013	Gymnázium pre žiakov s TP	Bratislava	Mokrohájska 3	6	2.7
+611014	Gymnázium F. Garcíu Lorcu	Bratislava	Hronská 3	67	2.7
+611015	1. súkromné gymnázium	Bratislava	Bajkalská 20	48	1.9
+611016	Evanjelické lýceum	Bratislava	Vranovská 2	46	1.9
+611017	Gymnázium Matky Alexie	Bratislava	Jesenského 4/A	80	1.7
+611018	Súkromné gymnázium Mercury	Bratislava	Zadunajská cesta 27	25	2.2
+611019	Gymnázium	Bratislava	Pankúchova 6	71	2.1
+611022	Súkromné gymnázium	Bratislava	Kremnická 26	149	3.7
+611023	Súkromné gymnázium	Bratislava	Vážska 32	52	2.7
+611025	Gymnázium sv. Uršule	Bratislava	Nedbalova 6	41	1
+611026	Spojená škola sv. Rodiny - Gymnázium	Bratislava	Gercenova 10	13	3.2
+611029	Súkromné športové gymnázium Gaudeamus	Bratislava	Dudvážska 6	15	3.7
+611030	Spojená škola sv. V. de Paul - Gymnázium	Bratislava	Bachova 4	8	1.6
+611031	Spojená škola - Gymnázium	Bratislava	Tilgnerova 14	47	1.8
+611033	Spojená škola de La Salle	Bratislava	Čachtická 14	33	2
+611040	Gymnázium	Malacky	1. mája 8	79	2.2
+611041	Gymnázium sv. F. Assiského	Malacky	Kláštorné námestie 1	29	2.1
+611042	Gymnázium Karola Štúra	Modra	Námestie Slobody 5	37	1.8
+611043	Gymnázium	Pezinok	Senecká 2	58	1.7
+611045	Gymnázium A. Bernoláka	Senec	Lichnerova 69	47	2.5
+611047	Bilingválne gymnázium C. S. Lewisa	Bratislava	Haanova 28	53	1.9
+611049	Škola pre mimoriadne nadané deti a gymnázium	Bratislava	Teplická 7	23	1.1
+611050	Súkromné gymnázium Esprit	Bratislava	Majerníkova 62	8	2
+611051	Súkromné gymnázium	Bratislava	Česká 10	31	2.7
+611052	Spojená škola sv. Františka z Assisi	Bratislava	Karloveská 32	18	1.9
+611055	Súkromné gymnázium Galileo School	Bratislava	Dudvážska 6	23	1.5
+611058	Súkromné gymnázium Cambridge International School	Bratislava	Úprkova 3	4	1
+611060	Súkromné gymnázium nemecko-slovenské	Bratislava	Palisády 51	4	1
+611501	Stredná zdravotnícka škola	Bratislava	Záhradnícka 44	117	2.7
+611502	Stredná zdravotnícka škola	Bratislava	Strečnianska 20	32	3.5
+612001	Konzervatórium	Bratislava	Tolstého 11	44	1.9
+612002	Cirkevné konzervatórium	Bratislava	Beňadická 16	10	1.6
+612003	Súkromné konzervatórium ALKANA	Bratislava	Batkova 2	5	2.4
+612004	Tanečné konzervatórium E. Jaczovej	Bratislava	Gorazdova 20	11	2
+612201	Spojená škola - Stredná odborná škola umeleckopriemyselná	Bratislava	Tokajícka 24	60	3
+612401	Škola úžitkového výtvarníctva J. Vydru	Bratislava	Dúbravská cesta č.11	65	3.2
+612601	Súkromná SUŠ animovanej tvorby	Bratislava	Vlastenecké námestie 1	45	2.6
+612701	Súkromná SUŠ dizajnu	Bratislava	Ivanská cesta 21	22	2.6
+612901	Stredná umelecká škola scénického výtvarníctva	Bratislava	Sklenárova 7	76	2.9
+613001	Súkromná stredná odborná škola ochrany osôb a majetku	Bratislava	Vranovská 4	36	2.4
+613003	Stredná odborná škola	Bratislava	Račianska 105	29	3.6
+613004	Stredná odborná škola	Senec	Kysucká 14	9	3.4
+613005	Stredná odborná škola	Bratislava	Ivanská 21	40	4
+613007	Stredná odborná škola kaderníctva a vizážistiky	Bratislava	Svätoplukova 2	45	3.5
+613008	Súkromná stredná odborná škola	Bratislava	Exnárova 20	39	3.6
+613012	Súkromná stredná odborná škola - Gastroškola	Bratislava	Bieloruská 1	8	2.6
+613015	Súkromná stredná odborná škola HOST	Bratislava	Riazanská 75	26	2.9
+613018	Spojená škola - Stredná odborná škola	Ivanka pri Dunaji	SNP 30	67	3.3
+613019	Spojená škola - Stredná odborná škola J. A. Gagarina	Bernolákovo	Svätoplukova 38	28	3.4
+613022	Stredná odborná škola gastronómie a hotelových služieb	Bratislava	Farského 9	84	3.3
+613025	Stredná odborná škola pre žiakov so SP	Bratislava	Koceľova 26	4	3
+613027	Stredná odborná škola pre žiakov s TP	Bratislava	Mokrohájska 1	22	3.3
+613028	Súkromná športová stredná odborná škola	Bratislava	M. C. Sklodowskej 1	25	3
+613029	Súkromná stredná odborná škola	Bratislava	Dudova 4	14	3.7
+613201	Stredná priemyselná škola strojnícka	Bratislava	Fajnorovo nábrežie 5	56	2.7
+613301	Stredná odborná škola chemická	Bratislava	Vlčie hrdlo 50	50	3.6
+613702	Spojená škola - Stredná odborná škola drevárska	Bratislava	Tokajícka 24	11	3.6
+613801	Stredná odborná škola polygrafická	Bratislava	Račianska 190	66	3.4
+614101	Stredná priemyselná škola stavebná a geodetická	Bratislava	Drieňova 35	72	2.6
+614301	Stredná odborná škola masmediálnych a informačných štúdii	Bratislava	Kadnárova 7	58	2.7
+614701	Stredná odborná škola informačných technologií	Bratislava	Hlinická 1	47	3.5
+615401	Stredná odborná škola záhradnícka G. Čejku	Malinovo	Bratislavská 44	18	3.5
+615501	Stredná odborná škola vinársko-ovocinárska	Modra	Kostolná 3	25	3.4
+615701	Súkromná stredná odborná škola veterinárna	Bratislava	Pod brehmi 6/A	17	2.4
+616001	Súkromná hotelová akadémia HaGMa	Bratislava	Biskupická 21	21	3.1
+616004	Hotelová akadémia	Bratislava	Mikovíniho 1	124	3.2
+616101	Obchodná akadémia	Bratislava	Račianska 107	54	3.1
+616102	Obchodná akadémia I. Karvaša Bratislava	Bratislava	Hrobákova 11	100	2.8
+616103	Obchodná akadémia	Bratislava	Dudova 4	51	3.7
+616104	Obchodná akadémia	Bratislava	Nevädzova 3	77	2.2
+616105	Súkromná obchodná akadémia Profi-Kamo	Bratislava	Dudvážska 6	4	3.3
+616106	Spojená škola - Obchodná akadémia pre žiakov s TP	Bratislava	Mokrohájska 3	4	3
+616108	Obchodná akadémia	Pezinok	Myslenická 1	50	2.9
+616109	Súkromná obchodná akadémia	Bratislava	Kremnická 26	49	3.8
+616113	Súkromná obchodná akadémia	Plavecký Štvrtok	č. 351	7	2.4
+616301	Stredná odborná škola podnikania	Bratislava	Strečnianska 20	34	3.6
+616401	Stredná odborná škola obchodu a služieb S. Jurkoviča	Bratislava	Sklenárova 1	36	3.7
+616501	Stredná odborná škola hotelových služieb a obchodu	Bratislava	Na Pántoch 9	71	3.1
+617101	Pedagogická a kultúrna akadémia	Modra	Sokolská 6	46	2.5
+617201	Pedagogická a sociálna akadémia	Bratislava	Bullova 2	45	2.8
+617202	Súkromná pedagogická a sociálna akadémia	Bratislava	Ružová dolina 29	16	2.5
+618301	Stredná odborná škola elektrotechnická	Bratislava	Rybničná 59	34	4
+618302	CSOŠE P. G. Frassatiho	Bratislava	Vazovova 12	40	3.6
+618303	Stredná priemyselná škola elektrotechnická	Bratislava	Zochova 9	83	3.4
+618304	Stredná priemyselná škola elektrotechnická	Bratislava	K. Adlera 5	108	2.6
+618305	Stredná priemyselná škola elektrotechnická	Bratislava	Hálova 16	78	3.7
+618401	Stredná odborná škola dopravná	Bratislava	Kvačalova 20	40	3.4
+618402	Stredná priemyselná škola dopravná	Bratislava	Kvačalova 20	59	2.8
+618801	Súkromná stredná odborná škola automobilová Duálna akadémia	Bratislava	Jána Jonáša 5	22	2.9
+621001	Gymnázium Ladislava Dúbravu	Dunajská Streda	Smetanov háj 285/8	30	1.9
+621003	Gymnázium M. R. Štefánika	Šamorín	Slnečná 2	37	1.7
+621006	Gymnázium Janka Matúšku	Galanta	Štvrť SNP 1004/34	62	1.8
+621008	Gymnázium Vojtecha Mihálika	Sereď	Kostolná 119/8	62	1.8
+621009	Gymnázium Ivana Kupca	Hlohovec	Komenského 13	54	2
+621010	Gymnázium Pierra de Coubertina	Piešťany	Námestie SNP 9	129	2.1
+621012	Gymnázium Ladislava Novomeského	Senica	Dlhá 1037/12	97	1.9
+621014	Gymnázium F. V. Sasinka	Skalica	Námestie Slobody 3	98	1.8
+621015	Gymnázium Jána Hollého	Trnava	Na Hlinách 30	114	2.3
+621016	Gymnázium Angely Merici	Trnava	Hviezdoslavova 10	78	1.7
+621017	Športové gymnázium Jozefa Herdu	Trnava	Bottova 31	108	2.5
+621018	Súkromné bilingválne gymnázium	Galanta	Hodská 10	24	2.9
+621019	Gymnázium Jána Baltazára Magina	Vrbové	Beňovského 358/100	70	1.7
+621020	Arcibiskupské gymnázium biskupa P. Jantauscha	Trnava	Kalinčiakova 24	21	2.4
+621023	Súkromné bilingválne gymnázium BESST	Trnava	Limbová 3	11	2.4
+621501	Stredná zdravotnícka škola - Egészségügyi Középiskola	Dunajská Streda	Športová 349/34	22	—
+621502	Stredná zdravotnícka škola	Skalica	Lichardova 1	35	2.3
+621503	Stredná zdravotnícka škola	Trnava	Daxnerova 6	112	2.5
+623001	Stredná odborná škola Jozefa Čabelku	Holíč	Bernolákova 383/10	57	2.6
+623002	Súkromná stredná odborná škola Via Humana	Skalica	Mallého 2	73	3
+623003	Súkromná stredná odborná škola - Magán Szakközépiskola	Sládkovičovo	Fučíkova 426	28	3.6
+623006	Stredná odborná škola	Rakovice	Hlavná 25	26	3.2
+623007	Súkromná stredná odborná škola SD Jednota	Šamorín	Vinohradská 48	29	3.4
+623009	Súkromná stredná odborná škola	Zlaté Klasy	Trhovisko 776/1	13	3.4
+623012	Stredná odborná škola	Senica	V. Paulínyho Tótha 31/5	20	3.5
+623013	Súkromná stredná odborná škola Gos-Sk	Trnava	Ferka Urbánka 19	90	3.5
+623014	Stredná odborná škola	Holíč	Námestie sv. Martina 5	92	3.3
+623015	Stredná odborná škola	Hlohovec	Nerudová 13	51	2.8
+623201	Stredná odborná škola strojnícka	Skalica	pplk. Pľjušťa 29	38	3.3
+624001	Stredná priemyselná škola stavebná D. S. Jurkoviča	Trnava	Lomonosovova 7	78	2.6
+624501	Stredná priemyselná škola	Trnava	Komenského 1	153	2.9
+625101	Stredná odborná škola poľnohospodárstva a služieb na vidieku	Trnava	Zavarská 9	35	2.5
+625401	Stredná odborná škola záhradnícka	Piešťany	Brezová 2	8	3.4
+626001	Hotelová akadémia Ľudovíta Wintera	Piešťany	Stromová 34	92	2.5
+626002	Súkromná hotelová akadémia SD Jednota	Šamorín	Vinohradská 48	36	3.2
+626101	Obchodná akadémia - Kereskedelmi Akadémia	Veľký Meder	Bratislavská 38	17	1.8
+626102	Obchodná akadémia	Sereď	Mládežnícka 158/5	33	2.5
+626103	Obchodná akadémia	Hlohovec	Tehelná 4	36	2.3
+626104	Obchodná akadémia	Senica	Dlhá 256	79	2.6
+626105	Obchodná akadémia	Trnava	Kukučínova 2	114	1.8
+626301	Súkromná stredná odborná škola podnikania	Senica	Hollého 1380/34	90	2.7
+626401	Stredná odborná škola obchodu a služieb	Galanta	Z. Kodálya 765	74	3
+626402	Stredná odborná škola obchodu a služieb	Piešťany	Mojmírova 99/28	55	3.8
+626403	Stredná odborná škola obchodu a služieb	Trnava	Lomonosovova 2797/6	55	3
+627201	Pedagogická a sociálna akadémia bl. Laury	Trnava	Kalinčiakova 24	79	3
+628101	Stredná odborná škola technická - Müszaki Szakközépiskola	Dunajská Streda	Kračanská 1240/36	9	3
+628102	Stredná odborná škola technická	Hlohovec	F. Lipku 2422/5	23	3.7
+628103	Stredná odborná škola technická	Piešťany	Nová 5245/9	24	3.7
+628104	Stredná odborná škola technická - Műszaki Szakközépiskola	Galanta	Esterházyovcov 712/10	56	3.3
+628201	Súkromná stredná odborná škola polytechnická DSA	Trnava	Koniarekova 17	12	3
+628301	Stredná priemyselná škola elektrotechnická	Piešťany	Brezová 2	105	2.5
+628304	Stredná odborná škola elektrotechnická	Gbely	Učňovská 700/6	42	3.5
+628305	Stredná odborná škola elektrotechnická	Trnava	Sibírska 1	173	2.9
+628401	Stredná priemyselná škola dopravná	Trnava	Študentská 23	104	3
+628801	Stredná odborná škola automobilová	Trnava	Coburgova 7859/39	47	3.3
+631001	Gymnázium Janka Jesenského	Bánovce nad Bebravou	Radlinského 665/2	71	1.6
+631002	Gymnázium	Dubnica nad Váhom	Školská 2	79	1.8
+631003	Spojená škola sv. J. Bosca - Gymnázium	Nová Dubnica	Trenčianska 66/28	22	3
+631004	Gymnázium	Myjava	Jablonská 5/301	86	1.4
+631005	Gymnázium M. R. Štefánika	Nové Mesto nad Váhom	Športová 41	80	1.7
+631006	Gymnázium sv. Jozefa	Nové Mesto nad Váhom	Klčové 87	20	1.4
+631007	Bilingválne slovensko-španielske gymnázium	Nové Mesto nad Váhom	Štúrova ulica 2590/31	20	1.9
+631008	Gymnázium	Partizánske	Komenského 2/1074	80	2.2
+631009	Gymnázium	Považská Bystrica	Školská 234/8	131	1.9
+631010	Súkromné gymnázium	Považská Bystrica	M. R. Štefánika 147	1	—
+631011	Gymnázium I. Bellu	Handlová	Lipová 15	29	2.2
+631012	Spojená škola - Gymnázium	Nováky	Rastislavova 332	23	1.7
+631013	Gymnázium V. B. Nedožerského	Prievidza	Matice slovenskej 16	198	2.1
+631014	Piaristická spojená škola F. Hanáka - Gymnázium	Prievidza	A. Hlinku 44	39	2.1
+631015	Gymnázium	Púchov	1. mája 905	76	1.8
+631016	Gymnázium Ľ. Štúra	Trenčín	1. mája 2	180	1.7
+631017	Športové gymnázium	Trenčín	Staničná 6	45	3.2
+631018	Piaristické gymnázium J. Braneckého	Trenčín	Palackého 4	85	2.1
+631019	Súkromné športové gymnázium	Trenčianske Teplice	SNP 6	13	3.5
+631020	Súkromné gymnázium FUTURUM	Trenčín	Kožušnícka 2	44	2
+631501	Stredná zdravotnícka škola	Považská Bystrica	Školská 230	57	2.5
+631502	Stredná zdravotnícka škola Celestíny Šimurkovej	Trenčín	Veľkomoravská 14	115	2.7
+632501	Stredná umelecká škola	Trenčín	Staničná 8	115	2.7
+633001	Stredná odborná škola strojnícka	Bánovce nad Bebravou	Partizánska cesta 76	106	3
+633003	Stredná odborná škola	Pruské	č. 294	32	2.9
+633004	Stredná odborná škola	Dubnica nad Váhom	Bratislavská 439/18	75	4
+633009	Stredná odborná škola	Stará Turá	Športová 675/1	72	3.2
+633011	Stredná odborná škola	Partizánske	Námestie SNP 5	92	3.4
+633012	Stredná odborná škola	Považská Bystrica	Slovenských partizánov 1129/49	40	3.8
+633013	Súkromná stredná odborná škola	Prievidza	S. Chalupku 1938/12B	23	2.4
+633014	Stredná odborná škola	Prievidza	T. Vansovej 32	94	3.5
+633015	Stredná odborná škola	Handlová	Lipová 8	109	3.4
+633016	Spojená škola - Stredná odborná škola	Nováky	Rastislavova 332	73	2.9
+633018	Stredná odborná škola	Púchov	I. Krasku 491	78	3.3
+633020	Súkromná stredná odborná škola	Trenčín	M. R. Štefánika 379/19	27	3
+633021	Stredná odborná škola	Trenčín	Pod Sokolicami 14	47	3.3
+633022	Piaristická spojená škola F. Hanáka - Stredná odborná škola	Prievidza	A. Hlinku 44	17	3.1
+633023	Spojená škola sv. J. Bosca - Stredná odborná škola	Nová Dubnica	Trenčianska 66/28	5	3.6
+633201	Stredná odborná škola strojnícka	Považská Bystrica	Športovcov 341/2	130	3.4
+634001	Stredná odborná škola stavebná Emila Belluša	Trenčín	Staničná 4	54	2.6
+634220	Stredná odborná škola sklárska	Lednické Rovne	Súhradka 193	5	2.4
+634501	Stredná priemyselná škola	Dubnica nad Váhom	Obr. mieru 343/1	145	2.4
+634502	Stredná priemyselná škola	Myjava	Ul. SNP 413/8	96	3
+634504	Stredná priemyselná škola	Považská Bystrica	Slovenských partizánov 1132/52	64	3.1
+634505	Stredná priemyselná škola	Nové Mesto nad Váhom	Bzinská 11	77	2.7
+636002	Súkromná hotelová akadémia	Považská Bystrica	M. R. Štefánika 147	3	2.3
+636103	Obchodná akadémia	Považská Bystrica	Jesenského 259/6	120	2.4
+636104	Súkromná obchodná akadémia	Považská Bystrica	M. R. Štefánika 147	5	3
+636105	Obchodná akadémia	Prievidza	F. Madvu 2	92	2.6
+636106	Obchodná akadémia Milana Hodžu	Trenčín	M. Rázusa 1	115	2.1
+636107	Súkromná obchodná akadémia	Prievidza	Bakalárska 2	11	3.5
+636401	Stredná odborná škola obchodu a služieb	Prievidza	J. Kalinčiaka 1	134	3
+636402	Stredná odborná škola obchodu a služieb	Púchov	1. mája 1264	95	2.9
+636403	Stredná odborná škola obchodu a služieb	Trenčín	Jilemnického 24	179	3.4
+636404	Stredná odborná škola obchodu a služieb	Nové Mesto nad Váhom	Weisseho 1	72	3
+637201	Pedagogická a sociálna akadémia sv. Andreja - Svorada	Trenčín	1. mája 7	56	1.7
+638001	Dopravná akadémia	Trenčín	Školská 66	60	3.2
+638601	Stredná odborná škola letecko - technická	Trenčín	Legionárska 160	67	2.7
+641001	Gymnázium Ľudovíta Jaroslava Šuleka	Komárno	Pohraničná 10	75	1.7
+641003	Gymnázium Andreja Vrábla	Levice	Mierová 5	146	2
+641004	Gymnázium	Šahy	Mládežnícka 22	13	2
+641006	Gymnázium	Želiezovce	Štúrova 16	22	1.6
+641008	Gymnázium	Nitra	Golianova 68	138	1.6
+641009	Gymnázium	Nitra	Parovská 1	183	2.3
+641010	Spojená katolícka škola - Gymnázium sv. Cyrila a Metoda	Nitra	Farská 19	74	1.7
+641011	Piaristická spojená škola sv. Jozefa Kalazanského - Piaristické gymnázium sv. Jozefa Kalazanského	Nitra	Piaristická 6	88	2.1
+641012	Gymnázium	Vráble	Školská 1232/26	58	2.2
+641013	Gymnázium	Nové Zámky	M. R. Štefánika 16	107	1.5
+641014	Gymnázium - Gimnázium	Štúrovo	Adyho 7	12	2.4
+641015	Gymnázium	Šurany	Bernolákova 37	64	1.9
+641016	Gymnázium Juraja Fándlyho	Šaľa	Školská 3	63	2
+641017	Gymnázium	Topoľčany	Ul. 17. novembra 1180/16	128	1.9
+641018	Gymnázium sv. Vincenta de Paul	Topoľčany	Ul. 17. novembra 1056	18	2.2
+641019	Gymnázium Janka Kráľa	Zlaté Moravce	SNP 3	52	2.5
+641022	Spojená škola - Športové gymnázium	Nitra	Slančíkovej 2	97	2.4
+641024	Katolícka spojená škola sv. Vincenta de Paul - Gymnázium sv. Vincenta de Paul	Levice	Saratovská 87	34	2.4
+641025	Súkromné gymnázium	Topoľčany	Gagarinova 1	5	2.4
+641501	Stredná zdravotnícka škola	Nitra	Farská 23	92	1.7
+641502	Stredná zdravotnícka škola - Egészségügyi Középiskola	Nové Zámky	Pod kalváriou 1	53	2.2
+641503	Stredná zdravotnícka škola sv. Vincenta de Paul	Topoľčany	17. novembra 1056	51	3.3
+642001	Súkromné konzervatórium Dezidera Kardoša	Topoľčany	Gagarinova 2490/13	17	2.8
+642002	Súkromné konzervatórium	Nitra	Krčméryho 2	19	2.2
+642401	Súkromná škola úžitkového výtvarníctva	Topoľčany	Gagarinova 2490/13	8	2.1
+642402	Cirkevná škola úžitkového výtvarníctva sv. Lukáša	Topoľčany	Lipova 3868/10	10	2.1
+642501	Súkromná stredná umelecká škola dizajnu	Nitra	Škultétyho 1	24	3
+642502	Stredná umelecká škola Ladislava Bielika	Levice	Vajanského 23	40	3.7
+643001	Súkromná stredná odborná škola pedagogická	Topoľčany	Tovarnícka 1641	40	2.6
+643002	Súkromná stredná odborná škola ANIMUS	Nitra	Levická cesta 40	61	2.2
+643008	Stredná odborná škola	Nitra	Cintorínska 4	72	2.9
+643009	Stredná odborná škola dopravy a služieb	Nové Zámky	Jesenského 1	85	2.8
+643011	Stredná odborná škola - Szakközépiskola	Dvory nad Žitavou	Hlavné námestie 2	3	4.7
+643012	Stredná odborná škola techniky a služieb	Topoľčany	Tovarnícka 1609	50	3.5
+643014	Stredná odborná škola agrotechnická	Topoľčany	Tovarnícka 1632	42	—
+643016	Stredná odborná škola služieb	Levice	Ul. sv. Michala 36	46	2.7
+643020	Stredná odborná škola - Szakközépiskola	Šahy	SNP 41	12	3.1
+643022	Stredná odborná škola gastronómie a služieb	Šurany	Hviezdoslavova 55	32	2.2
+643023	Stredná odborná škola technická - Műszaki Szakközépiskola	Komárno	Bratislavská 10	20	3
+643024	Stredná odborná škola	Kalná nad Hronom	Ul. mieru 23	22	3.7
+643025	Stredná odborná škola	Levice	Pod amfiteátrom 7	25	3
+643031	Stredná odborná škola stavebná	Nitra	Nábrežie mládeže 1	20	3.4
+643032	Stredná odborná škola gastronómie a cestovného ruchu	Nitra	Levická 40	83	3
+643034	Stredná odborná škola stavebná	Nové Zámky	Nitrianska cesta 61	45	2.8
+643039	Stredná odborná škola techniky a mechanizácie – Műszaki és Gépesítési Szakközépiskola	Hurbanovo	Ul. 1. mája 1	7	3
+643040	Stredná odborná škola - Szakközépiskola	Šaľa	Štúrova 74	12	2.9
+643401	Stredná odborná škola potravinárska	Nitra	Cabajská 6	63	3.7
+643402	Stredná odborná škola potravinárska	Topoľčany	Krušovská 2091	18	2.8
+643701	Stredná odborná škola drevárska	Topoľčany	Pílska 7	46	3.3
+644001	Stredná priemyselná škola stavebná - Építőipari Szakközépiskola	Hurbanovo	Konkolyho 8	21	3
+644002	Stredná priemyselná škola stavebná	Nitra	Cabajská 4	119	2.6
+644501	Stredná priemyselná škola	Komárno	Petöfiho 2	26	3
+644502	Stredná priemyselná škola	Levice	Fr. Hečku 25	63	3.1
+644503	Stredná priemyselná škola strojnícka a elektrotechnická	Nitra	Fr. Kráľa 20	102	2.8
+644504	Spojená škola - Stredná priemyselná škola	Šaľa	Nivy 2	31	3.3
+644601	Spojená škola - Stredná priemyselná škola potravinárska	Nitra	Slančíkovej 2	35	2.5
+645101	Stredná odborná škola poľnohospodárstva a služieb na vidieku	Levice	Na lúkach 18	38	3.3
+645701	Stredná odborná škola veterinárna	Nitra	Drážovská 14	114	2.7
+646001	Spojená škola - Hotelová akadémia	Nitra	Slančíkovej 2	92	2.1
+646101	Obchodná akadémia	Levice	Ul. Kálmána Kittenbergera 2	52	2.6
+646102	Obchodná akadémia	Nitra	Bolečkova 2	109	2.8
+646103	Súkromná spojená škola - Súkromná obchodná akadémia - Kereskedelmi Magánakadémia	Štúrovo	Sv. Štefana 36	34	2.4
+646104	Obchodná akadémia	Šurany	Námestie hrdinov 7	51	2.6
+646105	Obchodná akadémia	Topoľčany	Inovecká 2041	56	2.6
+646106	Obchodná akadémia	Zlaté Moravce	Bernolákova 26	60	2.4
+646108	Spojená škola - Obchodná akadémia	Šaľa	Nivy 2	16	2.6
+646402	Stredná odborná škola obchodu a služieb	Topoľčany	T. Vansovej 2	57	2.7
+646403	Stredná odborná škola obchodu a služieb	Zlaté Moravce	SNP 5	49	2.8
+646404	Stredná odborná škola obchodu a služieb - Kereskedelmi és Szolgáltatóipari Szakközépiskola	Komárno	Budovateľská 32	22	3.1
+646501	Stredná odborná škola hotelových služieb a obchodu	Nové Zámky	Zdravotnícka 3	115	3
+647201	Stredná odborná škola pedagogická	Levice	Ul. F. Engelsa 3	70	2.7
+648101	Stredná odborná škola technická	Tlmače	Kozmálovská cesta 9	38	2.9
+648102	Stredná odborná škola technická	Šurany	Nitrianska 61	93	3.1
+648103	Stredná odborná škola technická	Zlaté Moravce	Ul. 1. mája 22	51	3.3
+648104	Stredná odborná škola technická	Vráble	Ul. 1. mája 500	19	2.8
+648201	Súkromná stredná odborná škola polytechnická DSA	Nitra	Novozámocká 220	94	3.2
+648202	Stredná odborná škola polytechnická	Zlaté Moravce	SNP 2	93	3
+648301	Spojená škola - Stredná priemyselná škola elektrotechnická S. A. Jedlika	Nové Zámky	Komárňanská 28	103	2.8
+651001	Gymnázium	Bytča	Štefánikova 219/4	56	1.7
+651002	Gymnázium Jozefa Miloslava Hurbana	Čadca	17. novembra 1296	152	2
+651003	Gymnázium	Turzovka	Ľ. Štúra 35	38	2.1
+651004	Gymnázium P. O. Hviezdoslava	Dolný Kubín	Hviezdoslavovo námestie 18	95	1.8
+651006	Cirkevné gymnázium Andreja Radlinského	Dolný Kubín	Okružná 2062/25	17	2.4
+651007	Gymnázium	Kysucké Nové Mesto	Jesenského 2243	61	1.8
+651008	Gymnázium	Liptovský Hrádok	Hradná 497/23	38	1.7
+651009	Gymnázium Michala Miloslava Hodžu	Liptovský Mikuláš	M. M. Hodžu 860/9	80	2.1
+651010	Evanjelická spojená škola - Evanjelické gymnázium J. Tranovského	Liptovský Mikuláš	Komenského 10	100	1.5
+651011	Gymnázium Jozefa Lettricha	Martin	Lettricha 2	56	1.7
+651012	Gymnázium Viliama Paulinyho - Tótha	Martin	Malá hora 3	119	2.4
+651013	Bilingválne gymnázium Milana Hodžu	Sučany	Komenského 215	95	1.7
+651014	Spojená škola - Gymnázium J. C. Hronského	Vrútky	M. R. Štefánika 1	14	3
+651015	Gymnázium Antona Bernoláka	Námestovo	Mieru 307/23	221	1.8
+651016	Gymnázium	Ružomberok	Š. Moyzesa 21	81	1.7
+651017	Gymnázium sv. Andreja	Ružomberok	Námestie A. Hlinku 5	87	2.4
+651019	Spojená škola - Gymnázium M. Galandu	Turčianske Teplice	Horné Rakovce 1440/29	20	2.6
+651020	Gymnázium Martina Hattalu	Trstená	Železničiarov 278	135	2.1
+651021	Gymnázium	Tvrdošín	Školská 837	36	1.4
+651022	Gymnázium	Rajec	Javorová 5	22	2.5
+651023	Katolícka spojená škola	Rajec	Námestie A. Škrábika 5	12	1.8
+651024	Gymnázium	Žilina	Hlinská 29	114	2.4
+651025	Gymnázium	Žilina	Veľká okružná 22	148	1.8
+651026	Gymnázium sv. Františka z Assisi	Žilina	J. M. Hurbana 44	57	1.9
+651027	Gymnázium	Žilina	Varšavská cesta 1	53	1.9
+651028	Gymnázium bilingválne	Žilina	T. Ružičku 3	83	2.1
+651029	Spojená škola - Športové gymnázium	Žilina	Rosinská cesta 4	38	2.1
+651030	Súkromné gymnázium	Žilina	Oravská 11	19	1.4
+651031	Spojená škola KP - Gymnázium Kráľovnej pokoja	Žilina	Na Závaží 2	28	2.5
+651032	Súkromné bilingválne gymnázium	Ružomberok	Bystrická cesta 174/5	10	2.1
+651033	Evanjelická spojená škola - Evanjelické gymnázium	Martin	M. R. Štefánika 17	37	1.9
+651501	Stredná zdravotnícka škola sv. Františka z Assisi	Čadca	Horná 137	32	3.1
+651502	Stredná zdravotnícka škola	Dolný Kubín	M. Hattalu 2149	47	2.5
+651503	Stredná zdravotnícka škola	Liptovský Mikuláš	Vrbická 632	55	2.7
+651504	Stredná zdravotnícka škola M. T. Schererovej	Ružomberok	Dončova 7	43	3.1
+651505	Stredná zdravotnícka škola	Žilina	Hlboká cesta 23	130	3.1
+652001	Konzervatórium	Žilina	J. M. Hurbana 48	27	2.1
+652002	Súkromná spojená škola - Súkromné hudobné a dramatické konzervatórium	Martin	J. Lettricha 3	15	1.9
+652401	Škola úžitkového výtvarníctva	Ružomberok	Scota Viatora 6	49	2.6
+652501	Súkromná spojená škola - Súkromná stredná umelecká škola	Martin	J. Lettricha 3	5	2.8
+652503	Súkromná stredná umelecká škola	Žilina	Hálkova 2968/22	56	2.6
+653003	Súkromná stredná odborná škola	Dolný Kubín	SNP 1202/14	2	3.5
+653004	Stredná odborná škola	Námestovo	Hattalova 968/33	88	2.7
+653007	Stredná odborná škola sv. Jozefa Robotníka	Žilina	Saleziánska 18	42	3.6
+653008	Súkromná stredná odborná škola	Žilina	Saleziánska 18	30	2.6
+653009	Súkromná stredná odborná škola spoločného stravovania	Žilina	Závodská cesta 2961	11	3.5
+653011	Súkromná stredná odborná škola	Bytča	Sidónie Sakalovej č. 182	62	3
+653201	Stredná odborná škola strojnícka	Kysucké Nové Mesto	Športová 1326	113	3.2
+653202	Spojená škola	Martin	Červenej armády 25	91	4
+653601	Spojená škola	Žilina	Hlavná 2	42	2.8
+653701	Stredná odborná škola drevárska a stavebná	Krásno nad Kysucou	č. 1642	64	3.4
+653704	Spojená škola - Stredná odborná škola drevárska	Žilina	Rosinská cesta 4	28	2.6
+654001	Stredná odborná škola stavebná	Liptovský Mikuláš	Školská 8	32	2.6
+654002	Stredná odborná škola stavebná	Žilina	Tulipánová 2	106	2.9
+654003	Stredná priemyselná škola stavebná	Žilina	Veľká Okružná 25	164	2.9
+654501	Spojená škola	Kysucké Nové Mesto	Nábrežná 1325	172	2.9
+654502	Stredná priemyselná škola	Martin	Novomeského 5/24	86	3.2
+654503	Spojená škola - Stredná priemyselná škola a Obchodná akadémia	Tvrdošín	Sídl. Medvedzie I. 133/1	115	2.9
+655101	Stredná odborná škola poľnohospodárstva a služieb na vidieku	Žilina	Predmestská 82	89	3.2
+655301	Stredná odborná škola lesnícka a drevárska Jozefa Dekreta Matejovie	Liptovský Hrádok	Hradná 534	59	2.5
+655302	Stredná odborná škola lesnícka	Tvrdošín	Medvedzie 135	27	2.7
+656001	Hotelová akadémia	Liptovský Mikuláš	Čs. brigády 1804	69	3.1
+656002	Súkromná Spojená škola EDUCO	Námestovo	Slanická Osada 2178	77	2.9
+656003	Hotelová akadémia	Žilina	Hlinská 31	118	2.8
+656101	Obchodná akadémia Dušana Metoda Janotu	Čadca	17. novembra 2701	92	2.3
+656102	Obchodná akadémia	Dolný Kubín	Radlinského 1725/55	71	2.7
+656104	Obchodná akadémia	Liptovský Mikuláš	Nábrežie K. Petroviča 1571	42	3
+656105	Obchodná akadémia	Martin	Bernolákova 2	72	2.3
+656106	Obchodná akadémia	Ružomberok	Scota Viatora 4	47	2.5
+656110	Obchodná akadémia	Žilina	Veľká Okružná 32	83	2.6
+656111	Obchodná akadémia sv. T. Akvinského	Žilina	Vysokoškolákov 13	32	2.8
+656112	Súkromná obchodná akadémia	Žilina	Jarná 13	55	2.6
+656303	Stredná odborná škola podnikania	Žilina	Sasinkova 45	36	2.6
+656304	Súkromná stredná odborná škola podnikania	Ružomberok	Bystrická cesta 174/5	21	1.8
+656401	Stredná odborná škola obchodu a služieb	Čadca	17. novembra 2579	90	3
+656402	Stredná odborná škola obchodu a služieb	Dolný Kubín	Pelhřimovská 1186/10	96	2.9
+656404	Stredná odborná škola obchodu a služieb	Martin	Stavbárska 11	101	3.3
+656405	Spojená škola - Stredná odborná škola obchodu a služieb	Ružomberok	Scota Viatora 8	58	3.1
+657201	Pedagogická a sociálna akadémia sv. M. Goretti	Čadca	Horná 137	75	2.2
+657202	Pedagogická a sociálna akadémia	Turčianske Teplice	SNP 509/116	97	1.9
+658001	Dopravná akadémia	Žilina	Rosinská cesta 2	125	3.3
+658101	Stredná odborná škola technická	Čadca	Okružná 693	81	3.3
+658103	Stredná odborná škola technická	Námestovo	Komenského 496/37	64	2.8
+658104	Spojená škola	Nižná	Hattalova 471	126	3
+658201	Stredná odborná škola polytechnická	Dolný Kubín	Jelšavská 404	52	3.1
+658202	Stredná odborná škola polytechnická	Liptovský Mikuláš	Demänovská cesta 669	15	3.1
+658203	Stredná odborná škola polytechnická	Ružomberok	Sládkovičova ulica 104	59	2.8
+658301	Stredná odborná škola elektrotechnická	Liptovský Hrádok	Celiny 536	143	2.8
+658302	Stredná odborná škola elektrotechnická	Žilina	Komenského 50	101	3.1
+658401	Stredná odborná škola dopravná	Martin	Zelená 2	58	3.5
+661001	Gymnázium A. Sládkoviča	Banská Bystrica	Komenského 18	125	2.4
+661002	Gymnázium J. G. Tajovského	Banská Bystrica	Tajovského 25	179	1.5
+661003	Gymnázium M. Kováča	Banská Bystrica	Mládežnícka 51	50	1.9
+661005	Športové gymnázium	Banská Bystrica	Trieda SNP 54	34	2.5
+661007	Katolícke gymnázium Š. Moysesa	Banská Bystrica	Hurbanova 9	63	1.9
+661008	Evanjelické gymnázium	Banská Bystrica	Skuteckého 5	92	2.1
+661015	Gymnázium A. Kmeťa	Banská Štiavnica	Kolpašská 1738/9	74	1.6
+661020	Gymnázium J. Chalupku	Brezno	Štúrova 13	57	2
+661023	Súkromné gymnázium	Podbrezová	Družby 554/64	42	2.3
+661025	Gymnázium	Detva	Štúrova 849	32	1.5
+661028	Gymnázium A. Sládkoviča	Krupina	M. R. Štefánika 8	24	2.3
+661031	Gymnázium - Gimnázium	Fiľakovo	Námestie padlých hrdinov 2	21	2
+661034	Gymnázium B. S. Timravy	Lučenec	Haličská cesta 9	118	1.9
+661036	Súkromné gymnázium	Lučenec	Gemerská cesta 1	7	2.7
+661042	Gymnázium M. Kukučína	Revúca	Clementisova 1166	40	1.8
+661043	Prvé slovenské literárne gymnázium	Revúca	Železničná 260	13	2.7
+661045	Gymnázium - Gimnázium	Tornaľa	Hurbanova 34	11	2
+661048	Gymnázium Mateja Hrebendu	Hnúšťa	Hlavná 431	26	2
+661051	Gymnázium Ivana Kraska - Ivan Krasko Gimnázium	Rimavská Sobota	P. Hostinského 3	66	1.9
+661057	Evanjelické gymnázium	Tisovec	Jesenského 836	49	2
+661060	Gymnázium A. H. Škultétyho	Veľký Krtíš	Školská 21	62	2.4
+661064	Gymnázium Ľudovíta Štúra	Zvolen	Hronská 1467/3	156	1.8
+661068	Súkromné gymnázium	Zvolen	Jesenského 42	16	3.1
+661071	Gymnázium F. Švantnera	Nová Baňa	Bernolákova 9	40	1.8
+661075	Súkromné gymnázium	Kremnica	P. Križku 390/4	10	1.9
+661080	Súkromné gymnázium	Kremnica	Dolná 48/19	11	2.8
+661083	Gymnázium Milana Rúfusa	Žiar nad Hronom	J. Kollára 2	114	2.2
+661501	Stredná zdravotnícka škola	Banská Bystrica	Tajovského 24	147	2
+661511	Stredná zdravotnícka škola	Lučenec	Lúčna 2	46	2.5
+661531	Stredná zdravotnícka škola	Zvolen	J. Kozáčeka 4	41	3.1
+662001	Konzervatórium Jána Levoslava Bellu	Banská Bystrica	Skuteckého 27	25	2.2
+662020	Súkromné hudobné a dramatické konzervatórium	Rimavská Sobota	Školská 31	3	3
+662030	Súkromné konzervatórium	Zvolen	Jesenského 42	6	3.3
+662420	Súkromná škola úžitkového výtvarníctva	Kremnica	P. Križku 390/4	10	2.9
+662550	Súkromná stredná umelecká škola	Zvolen	Môťovská 8164	43	2.7
+662560	Súkromná stredná umelecká škola	Hodruša - Hámre	Kyslá 214	13	3.2
+663001	Stredná odborná škola	Banská Bystrica	Pod Bánošom 80	40	2.5
+663015	Stredná odborná škola služieb a lesníctva	Banská Štiavnica	Kolpašská 1586/9	43	3.4
+663020	Stredná odborná škola techniky a služieb	Brezno	Laskomerského 3	36	2.9
+663030	Spojená škola - Stredná odborná škola	Detva	Štúrova 848	19	3.7
+663040	Stredná odborná škola - Szakközépiskola	Fiľakovo	Kalinčiakova 1584/8	25	3.9
+663044	Stredná odborná škola hotelových služieb a dopravy	Lučenec	Zvolenská 83	99	3.2
+663048	Spojená škola - Stredná odborná škola	Poltár	Železničná 5	8	3.3
+663051	Stredná odborná škola	Revúca	Generála Viesta 6	19	3
+663053	Súkromná stredná odborná škola	Revúca	Železničná 2	13	2.6
+663055	Stredná odborná škola - Szakközépiskola	Tornaľa	Šafárikova 56	6	3.8
+663060	Stredná odborná škola	Hnúšťa	Hlavná 425	13	2.7
+663061	Súkromná stredná odborná škola	Hnúšťa	Francisciho 372	13	2.8
+663064	Stredná odborná škola technická a agropotravinárska - Müszaki Mezögazdasági és Élelmiszeripari Szakközépiskola	Rimavská Sobota	Okružná 61	35	3.7
+663068	Stredná odborná škola	Tisovec	Jesenského 903	38	3.3
+663074	Stredná odborná škola	Veľký Krtíš	Poľná 10	35	3.3
+663090	Stredná odborná škola	Žarnovica	Bystrická 4	44	3.2
+663094	Súkromná stredná odborná škola	Hliník nad Hronom	Kopaničná 237	10	3.4
+663096	Stredná odborná škola pre žiakov so SP internátna	Kremnica	Kutnohorská 675/20	2	4
+663099	Súkromná stredná odborná škola - Magán Szakközépiskola	Rimavská Sobota	Ul. L. Novomeského 2070	18	3.6
+663110	Súkromná stredná odborná škola hutnícka ŽP	Podbrezová	Družby 554/64	74	3
+663730	Stredná odborná škola drevárska	Zvolen	Lučenecká cesta 2193/17	79	2.9
+664001	Spojená škola - Stredná odborná škola stavebná	Banská Bystrica	Kremnička 10	57	2.8
+664002	Spojená škola - Stredná priemyselná škola stavebná	Banská Bystrica	Kremnička 10	24	2.3
+664013	Stredná priemyselná škola stavebná O. Winklera	Lučenec	B. Nemcovej 1	47	3.1
+664501	Stredná priemyselná škola J. Murgaša	Banská Bystrica	Hurbanova 6	147	2.1
+664506	Stredná priemyselná škola S. Mikovíniho	Banská Štiavnica	Akademická 13	55	2.6
+664701	Stredná odborná škola informačných technológií	Banská Bystrica	Tajovského 30	128	3.2
+665305	Stredná odborná škola lesnícka	Banská Štiavnica	Akademická 16	55	3.5
+666005	Súkromná hotelová akadémia	Banská Štiavnica	Drieňová 12	11	2.2
+666010	Hotelová akadémia	Brezno	Malinovského 1	83	2.3
+666101	Obchodná akadémia	Banská Bystrica	Tajovského 25	77	2.3
+666109	Obchodná akadémia	Brezno	Malinovského 1	20	2.7
+666112	Spojená škola - Obchodná akadémia	Detva	Štúrova 848	30	2.4
+666118	Obchodná akadémia	Lučenec	Lúčna 4	54	2.5
+666130	Obchodná akadémia - Kereskedelmi Akadémia	Rimavská Sobota	K. Mikszátha 1	21	3
+666133	Spojená škola - Obchodná akadémia	Modrý Kameň	Jarmočná 1	22	2.3
+666144	Súkromná obchodná akadémia	Žiar nad Hronom	SNP 16	7	2.9
+666161	Súkromná obchodná akadémia	Banská Bystrica	Dolná 54	1	—
+666301	Spojená škola - Stredná odborná škola podnikania	Banská Bystrica	Školská 7	40	2.9
+666340	Súkromná stredná odborná škola podnikania	Zvolen	Námestie Mládeže 587/17	24	3.3
+666410	Stredná odborná škola obchodu a služieb	Krupina	M. R. Štefánika 8	27	2.7
+666415	Stredná odborná škola obchodu a služieb	Rimavská Sobota	Športová 1	43	3.6
+666420	Spojená škola - Stredná odborná škola obchodu a služieb	Modrý Kameň	Jarmočná 1	17	2.8
+666425	Stredná odborná škola obchodu a služieb	Nová Baňa	Osvety 17	22	2.3
+666435	Stredná odborná škola obchodu a služieb	Žiar nad Hronom	Jilemnického 1282	38	2.2
+666501	Stredná odborná škola hotelových služieb a obchodu	Banská Bystrica	Školská 5	77	3.1
+666530	Stredná odborná škola hotelových služieb a obchodu	Zvolen	Jabloňová 1351	109	2.5
+667211	Súkromná stredná odborná škola pedagogická EBG	Brezno	Školská 5	20	2.9
+667220	Pedagogická a sociálna akadémia - Pedagógiai és Szociális Akadémia	Lučenec	Komenského 12	77	2.8
+667251	Súkromná stredná odborná škola pedagogická EBG	Žiar nad Hronom	Námestie Matice slovenskej 23	23	2.7
+668120	Stredná odborná škola technická	Lučenec	Dukl. hrdinov 2	64	3.6
+668150	Súkromná stredná odborná škola technická	Žiar nad Hronom	Ul. Dr. Janského 10	56	2.8
+668301	Spojená škola - Stredná odborná škola elektrotechnická	Banská Bystrica	Zvolenská cesta 18	60	3.2
+668433	Stredná priemyselná škola dopravná	Zvolen	Sokolska 911/94	78	3.2
+668801	Spojená škola - Stredná odborná škola automobilová	Banská Bystrica	Školská 7	31	3.5
+668940	Technická akadémia	Zvolen	J. Švermu 1	58	3.1
+671001	Gymnázium Leonarda Stöckela	Bardejov	Jiráskova 12	145	1.5
+671002	Spojená škola Juraja Henischa - Gymnázium	Bardejov	Slovenská 5	56	2
+671003	Cirkevná spojená škola - Gymnázium sv. Jána Bosca	Bardejov	Jiráskova 5	7	1.6
+671004	Súkromné gymnázium	Bardejov	Ul. 29. augusta 4	40	2.1
+671007	Gymnázium sv. Cyrila a Metoda	Humenné	Duchnovičova 24	25	2.1
+671008	Gymnázium arm. gen. L. Svobodu	Humenné	Komenského 4	144	1.7
+671009	Gymnázium sv. Jána Zlatoústeho	Humenné	Lesná 28	22	1.9
+671011	Gymnázium P. O. Hviezdoslava	Kežmarok	Hviezdoslavova 20	47	2.3
+671012	Spojená škola - Gymnázium	Spišská Stará Ves	SNP 3/5	27	1.9
+671015	Gymnázium J. Francisciho - Rimavského	Levoča	Kláštorská 37	46	2.4
+671016	Gymnázium sv. Františka Assiského	Levoča	Kláštorská 24	54	1.9
+671019	Gymnázium	Medzilaborce	Duchnovičova 13	31	1.7
+671021	Súkromné gymnázium	Poprad	Rovná 597/15	16	1.8
+671022	Spojená škola - Gymnázium	Poprad	Dominika Tatarku 4666/7	137	1.9
+671023	Gymnázium	Poprad	Kukučinova 4239/1	134	1.7
+671024	Cirkevné gymnázium P. U. Olivu	Poprad	Dlhé hony 3522	26	2
+671027	Spojená škola Tarasa Ševčenka - Gymnázium	Prešov	Sládkovičova 4	21	1.9
+671028	Katolícka spojená škola sv. Mikuláša - Gymnázium sv. Mikuláša	Prešov	Duklianska 16	36	1.6
+671029	Gymnázium	Prešov	Konštantínova 2	233	1.6
+671030	Gymnázium sv. Moniky	Prešov	Tarasa Ševčenka 1	123	1.4
+671031	Evanjelická spojená škola - Evanjelické kolegiálne gymnázium	Prešov	Námestie legionárov 3	41	1.5
+671032	Gymnázium J. A. Raymana	Prešov	Mudroňova 20	132	1.6
+671033	Spojená škola - Gymnázium	Prešov	Ľ. Podjavorinskej 22	30	2.9
+671034	Súkromná spojená škola European English School - Súkromné gymnázium	Prešov	Solivarská 28	29	2.8
+671035	Gymnázium bl. Pavla Petra Gojdiča	Prešov	Bernolákova 21	23	1.6
+671036	Súkromné športové gymnázium ELBA	Prešov	Smetanova 2	27	2.6
+671041	Gymnázium	Lipany	Komenského 13	92	1.6
+671042	Súkromné Gymnázium DSA	Sabinov	Komenského 40	17	2.1
+671045	Gymnázium	Snina	Študentská 4	82	1.8
+671046	Cirkevná spojená škola - Gymnázium sv. Cyrila a Metoda	Snina	Švermova 10	44	1.9
+671050	Gymnázium Terézie Vansovej	Stará Ľubovňa	17. novembra 6	85	2
+671051	Cirkevné gymnázium sv. Mikuláša	Stará Ľubovňa	Štúrova 3	51	1.8
+671054	Gymnázium	Stropkov	Konštantínova 1751/64	63	1.8
+671056	Gymnázium	Giraltovce	Dukelská 30	38	2
+671057	Gymnázium duklianskych hrdinov	Svidník	Komenského 16	45	2.1
+671062	Gymnázium	Vranov nad Topľou	Dr. C. Daxnera 88	111	1.5
+671063	Cirkevná spojená škola - Gymnázium	Vranov nad Topľou	Školská 650	29	2.3
+671502	Stredná zdravotnícka škola	Humenné	Lipová 32	47	2.7
+671506	Stredná zdravotnícka škola Štefana Kluberta	Levoča	Kláštorská 24 A	36	2.4
+671510	Stredná zdavotnícka škola	Poprad	Levočská 5	52	3.4
+671513	Stredná zdravotnícka škola sv. Bazila Veľkého	Prešov	Kmeťovo stromoradie 1	59	2
+671514	Stredná zdravotnícka škola	Prešov	Sládkovičova 36	138	2.8
+671522	Stredná zdravotnícka škola milosrdného Samaritána	Svidník	Sovietskych hrdinov 80	11	3
+672099	Súkromné konzervatórium Dezidera Kardoša	Prešov	M. Benku 7	8	2.1
+672507	Stredná umelecká škola	Prešov	Vodárenská 3	35	2.3
+672509	Stredná umelecká škola	Kežmarok	Slavkovská cesta 19	21	3.1
+673001	Súkromná stredná odborná škola	Bardejov	Hviezdoslavova 11	32	2.9
+673004	Stredná odborná škola	Kežmarok	Kušnierska brána 349/2	42	3.5
+673012	Stredná odborná škola	Kežmarok	Garbiarska 1	62	3
+673013	Súkromná spojená škola - Súkromná stredná odborná škola	Kežmarok	Biela voda 2	13	2.7
+673016	Spojená škola internátna - Stredná odborná škola pre žiakov so ZP internátna	Levoča	Námestie Štefana Kluberta 1	5	2.8
+673017	Spojená škola - Stredná odborná škola lesnícka	Bijacovce	č. 1	10	2.9
+673018	Stredná odborná škola Majstra Pavla	Levoča	Kukučínova 9	35	2.7
+673021	Stredná odborná škola Andyho Warhola	Medzilaborce	Duchnovičova 506	31	3.2
+673026	Súkromná stredná odborná škola	Poprad	Ul. 29. augusta 4812	100	2.6
+673027	Stredná odborná škola	Poprad	Okružná 761/25	60	3.6
+673028	Stredná odborná škola	Svit	Štefánikova 39	61	3.5
+673029	Stredná odborná škola	Vysoké Tatry	Horný Smokovec 26	58	3
+673030	Súkromná stredná odborná škola	Poprad	SNP 1253	56	3.3
+673034	Súkromná stredná odborná škola - ELBA	Prešov	Smetanova 2	23	3.3
+673037	Stredná odborná škola	Prešov	Košická 20	57	3.1
+673039	Súkromná stredná odborná škola	Prešov	Pod Kalváriou 36	66	3.9
+673043	Spojená škola - Stredná odborná škola	Sabinov	SNP 16	41	3.4
+673044	Stredná odborná škola	Lipany	Komenského 16	33	2.7
+673046	Stredná odborná škola	Snina	Sladkovičova 2723	17	3.5
+673051	Stredná odborná škola sv. Klementa Hofbauera	Podolínec	Kláštorná 2	23	3.1
+673052	Stredná odborná škola	Stará Ľubovňa	Jarmočná 108	59	3.2
+673056	Stredná odborná škola	Stropkov	Hlavná 6	26	2.5
+673061	Súkromná stredná odborná škola	Giraltovce	Dukelská 33	28	3.2
+673062	Stredná odborná škola arm. gen. L. Svobodu	Svidník	Bardejovská 715/18	35	3.3
+673068	Stredná odborná škola	Vranov nad Topľou	A. Dubčeka 963/2	45	3
+673071	Stredná odborná škola	Humenné	Mierová 1973/79	90	2.3
+673207	Stredná priemyselná škola strojnícka	Prešov	Duklianska 1	91	2.9
+673611	Stredná priemyselná škola	Svidník	Sovietskych hrdinov 369/24	14	2.9
+673707	Stredná odborná škola drevárska	Vranov nad Topľou	Lúčna 1055	70	3.5
+674007	Stredná priemyselná škola stavebná	Prešov	Plzenská 10	78	2.4
+674501	Stredná priemyselná škola	Bardejov	Komenského 5	97	2.6
+674511	Stredná priemyselná škola	Poprad	Mnoheľova 828	143	2.9
+674520	Stredná priemyselná škola	Prešov	Bardejovská 24	11	3.6
+674522	Stredná priemyselná škola	Snina	Partizánska 1059/23	62	3.3
+675307	Stredná odborná škola lesnícka	Prešov	Kollárova 10	53	3.5
+676002	Hotelová akadémia J. Andraščíka	Bardejov	Pod Vinbargom 3	103	2.9
+676004	Hotelová akadémia	Humenné	Štefánikova 28	74	3.1
+676007	Hotelová akadémia Otta Brucknera	Kežmarok	MUDr. Alexandra 29	62	2.9
+676013	Hotelová akadémia	Prešov	Baštová 32	102	2.5
+676015	Súkromná hotelová akadémia	Prešov	Volgogradská 8	6	4
+676101	Obchodná akadémia	Bardejov	Komenského 5	36	2.7
+676104	Obchodná akadémia	Humenné	Komenského 1	91	2.3
+676110	Obchodná akadémia	Poprad	Murgašova 94	121	2.6
+676115	Súkromná obchodná akadémia	Prešov	Petrovianska 34	18	3
+676116	Obchodná akadémia	Prešov	Volgogradská 3	84	2.3
+676123	Obchodná akadémia	Stará Ľubovňa	Jarmočná 132	43	3
+676127	Spojená škola - Obchodná akadémia	Svidník	Centrálna 464	49	2.9
+676130	Obchodná akadémia	Vranov nad Topľou	Daxnerova 88	62	2.4
+676307	Stredná odborná škola podnikania	Prešov	Masarykova 24	81	2.8
+676401	Spojená škola	Bardejov	Štefánikova 64	22	3
+676419	Stredná odborná škola obchodu a služieb	Prešov	Sídl. duklianskych hrdinov 3	64	3
+677004	Stredná pedagogická škola	Levoča	Bottova 15 A	84	2.2
+677202	Súkromná stredná odborná škola pedagogická EBG	Humenné	Lesná 909/28	29	1.9
+677209	Pedagogická a sociálna akadémia	Prešov	Kmeťovo stromoradie 5	109	2.1
+678104	Stredná odborná škola technická	Humenné	Družstevná 1737	116	3.3
+678116	Stredná odborná škola technická	Poprad	Kukučínova 483/12	69	3.1
+678119	Spojená škola - Stredná odborná škola technická	Prešov	Ľ. Podjavorinskej 22	149	3.4
+678120	Stredná odborná škola technická	Prešov	Volgogradská 1	79	3.7
+678128	Stredná odborná škola technická	Stará Ľubovňa	Levočská 40	44	2.7
+678134	Stredná odborná škola technická	Svidník	Pionierska 361/4	14	2.3
+678201	Spojená škola Juraja Henischa - Stredná odborná škola polytechnická	Bardejov	Slovenská 5	75	3.5
+678204	Stredná odborná škola polytechnická	Humenné	Štefánikova 1550/20	85	3.4
+678316	Stredná odborná škola elektrotechnická	Poprad	Hlavná 1400/1	70	3
+678318	Stredná priemyselná škola elektrotechnická	Prešov	Plzenská 1	167	2.3
+678328	Stredná odborná škola elektrotechnická	Stropkov	Hviezdoslavova 44	59	2.7
+678419	Stredná odborná škola dopravná	Prešov	Konštantínova 2	71	3.4
+681001	Gymnázium	Gelnica	SNP 1	25	2.3
+681003	Súkromné športové gymnázium	Košice	Užhorodská 39	18	2.8
+681004	Gymnázium Milana Rastislava Štefánika	Košice	Námestie L. Novomeského 4	67	1.7
+681006	Gymnázium	Košice	Poštová 9	123	1.7
+681007	Gymnázium sv. Tomáša Akvinského	Košice	Zbrojničná 3	110	2.2
+681008	Gymnázium	Košice	Šrobárova 1	107	2.1
+681014	Súkromné gymnázium	Košice	Katkin park 2	43	2.4
+681015	Športové gymnázium	Košice	Trieda SNP 104	70	2.7
+681016	Gymnázium	Košice	Trebišovská 12	105	2.1
+681017	Gymnázium	Košice	Park mládeže 5	158	1.9
+681018	Spojená škola - Gymnázium sv. Košických mučeníkov	Košice	Čordákova 50	12	2.2
+681022	Gymnázium sv. Edity Steinovej	Košice	Charkovská 1	60	2
+681025	Gymnázium	Košice	Alejová 1	99	2.1
+681026	Súkromné gymnázium	Košice	Dneperská 1	20	1.9
+681027	Evanjelické gymnázium Jána Ámosa Komenského	Košice	Škultétyho 10	114	2
+681028	Gymnázium	Košice	Opatovská cesta 7	70	2.1
+681032	Gymnázium Štefana Moysesa	Moldava nad Bodvou	Školská 13	19	2.1
+681035	Gymnázium Pavla Horova	Michalovce	Masarykova 1	209	1.9
+681036	Gymnázium	Michalovce	Ľ. Štúra 26	102	1.8
+681037	Gymnázium - Gimnázium	Veľké Kapušany	Zoltána Fábryho 1	18	2.2
+681041	Gymnázium P. J. Šafárika - P. J. Šafárik Gimnázium	Rožňava	Ul. akademika Hronca 1	70	2
+681044	Gymnázium	Sobrance	Kpt. Nálepku 6	69	1.7
+681047	Gymnázium	Krompachy	Lorencova 46	36	2.2
+681048	Gymnázium	Spišská Nová Ves	Javorová 16	94	1.6
+681049	Gymnázium	Spišská Nová Ves	Školská 7	117	2
+681050	Cirkevné gymnázium Štefana Mišíka	Spišská Nová Ves	Radničné námestie 271/8	15	1.2
+681054	Gymnázium - Gimnázium	Kráľovský Chlmec	Horešská 18	42	2.2
+681055	Spojená škola - Gymnázium	Sečovce	Kollárova 17	26	1.6
+681056	Gymnázium	Trebišov	Komenského 32	72	1.7
+681057	Cirkevné gymnázium sv. Jána Krstiteľa	Trebišov	M. R. Štefánika 9	44	2.8
+681058	Súkromné gymnázium FUTURUM	Košice	Grešákova 1	20	1.7
+681059	Premonštrátske gymnázium	Košice	Kováčska 28	29	2.1
+681503	Stredná zdravotnícka škola sv. Alžbety	Košice	Mäsiarska 25	25	3.4
+681504	Stredná zdravotnícka škola	Košice	Moyzesova 17	132	2.5
+681508	Stredná zdravotnícka škola	Košice	Kukučínova 40	64	3
+681512	Stredná zdravotnícka škola	Michalovce	Masarykova 27	101	2.2
+681515	Stredná zdravotnícka škola - Egészségügyi Középiskola	Rožňava	Námestie 1. mája č.1	33	2.6
+682001	Konzervatórium	Košice	Timonova 2	39	2.2
+682002	Súkromné konzervatórium	Košice	Zádielska 12	11	2.1
+682003	Súkromné hudobné a dramatické konzervatórium	Košice	Požiarnická 1	10	4
+682004	Konzervatórium J. Adamoviča	Košice	Exnárova 8	45	2.1
+682401	Škola úžitkového výtvarníctva	Košice	Jakobyho 15	77	2.5
+682801	Súkromná stredná umelecká škola filmová	Košice	Petzvalova 2	32	2.4
+683001	Stredná odborná škola	Prakovce	Breziny 282	12	3.2
+683005	Stredná odborná škola Jána Bocatia	Košice	Bocatiova 1	66	2.8
+683007	Stredná odborná škola	Košice	Učňovská 5	70	3.3
+683010	Súkromná stredná odborná škola	Košice	Postupimská 37	64	2.6
+683013	Súkromná stredná odborná škola	Košice	Bukovecká 17	50	2.1
+683014	Stredná odborná škola	Košice	Gemerská 1	53	4
+683016	Súkromná stredná odborná škola PAMIKO	Košice	Kukučínova 23	1	—
+683018	Stredná odborná škola	Košice	Ostrovského 1	184	2.7
+683021	Stredná odborná škola - Szakközépiskola	Moldava nad Bodvou	Hlavná 54	13	3.2
+683025	Stredná odborná škola sv. Cyrila a Metoda	Michalovce	Tehliarska 2	19	2.8
+683026	Stredná odborná škola - Szakközépiskola	Veľké Kapušany	Janka Kráľa 25	17	3.2
+683027	Stredná odborná škola	Strážske	Mierová 727	30	2.2
+683030	Spojená škola - Stredná odborná škola	Dobšiná	Zimná 96	9	3.2
+683031	Stredná odborná škola technická	Rožňava	Hviezdoslavova 5	68	2.7
+683042	Súkromná spojená škola SEZ Krompachy - Stredná odborná škola	Krompachy	Maurerova 55	22	3.3
+683043	Stredná odborná škola	Spišská Nová Ves	Markušovská cesta 4	62	3.2
+683046	Súkromná stredná odborná škola DSA	Trebišov	Komenského 12	79	2.5
+683047	Cirkevná stredná odborná škola sv. Jozafáta	Trebišov	Komenského 1963/10	25	4
+683048	Stredná odborná škola - Szakközépiskola	Kráľovský Chlmec	Rákocziho 23	42	3.5
+683049	Spojená škola - Stredná odborná škola	Sečovce	Kollárova 17	18	3.8
+683050	Stredná odborná škola - Szakközépiskola	Pribeník	J. Majlátha 2	7	3
+683205	Stredná priemyselná škola strojnícka	Košice	Komenského 2	93	3.1
+683209	Technická akadémia	Spišská Nová Ves	Hviezdoslavova 6	116	3.3
+683709	Stredná odborná škola drevárska	Spišská Nová Ves	Filinského 7	123	3
+684102	Stredná priemyselná škola stavebná a geodetická	Košice	Lermontovova 1	88	3.2
+685104	Stredná odborná škola poľnohospodárstva a služieb na vidieku	Košice	Kukučínova 23	26	2.9
+685705	Stredná odborná škola veterinárna	Košice	Námestie mladých poľnohospodárov 2	62	2.9
+686005	Hotelová akadémia	Košice	Južná trieda 10	84	3.1
+686009	Súkromná hotelová akadémia - Dufincova	Michalovce	Komenského 1	12	3.2
+686017	Hotelová akadémia	Spišská Nová Ves	Radničné námestie 1	54	2.9
+686103	Obchodná akadémia	Košice	Watsonova 61	124	2.7
+686113	Obchodná akadémia	Košice	Polárna 1	42	2.8
+686117	Obchodná akadémia	Michalovce	Kapušianska 2	75	2.2
+686120	Obchodná akadémia	Rožňava	Akademika Hronca 8	49	2.1
+686127	Obchodná akadémia	Trebišov	Komenského 3425/18	44	2.6
+686203	Súkromná stredná odborná škola ekonomická Tercium	Košice	Palackého 14	12	3.8
+686213	Stredná odborná škola ekonomická	Spišská Nová Ves	Stojan 1	71	2.9
+686419	Stredná odborná škola obchodu a služieb	Michalovce	Školská 4	113	3.2
+686422	Stredná odborná škola obchodu a služieb	Rožňava	Rožňavská Baňa 211	62	2.7
+686425	Stredná odborná škola obchodu a služieb	Sobrance	Námestie slobody 12	39	2.3
+687004	Katolícka stredná pedagogická škola sv. Cyrila a Metoda	Košice	Južná trieda 48	49	3.4
+687204	Súkromná pedagogická a sociálna akadémia	Košice	Požiarnická 1	28	3.2
+688129	Stredná odborná škola technická	Košice	Kukučínova 23	104	3.2
+688132	Stredná odborná škola technická	Michalovce	Partizánska 1	187	3
+688303	Stredná priemyselná škola elektrotechnická	Košice	Komenského 44	169	2.5
+688403	Stredná priemyselná škola dopravná	Košice	Hlavná 113	106	3.5
+688705	Stredná odborná škola železničná	Košice	Palackého 14	79	3.2
+688802	Stredná odborná škola automobilová	Košice	Moldavská cesta 2	84	3.8

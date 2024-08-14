@@ -1,4 +1,4 @@
-import { divIcon } from 'leaflet';
+import { divIcon } from "leaflet";
 
 var Base = {
   sortAlphabetical(array, by) {
@@ -10,12 +10,12 @@ var Base = {
   },
 
   label() {
-    return 'todo example';
+    return "todo example";
   },
 
   sumArray(arr) {
     let sum = 0;
-    arr.forEach(a => (sum += a));
+    arr.forEach((a) => (sum += a));
     return sum;
   },
 
@@ -34,10 +34,10 @@ var Base = {
         (s / 2 + 2) +
         '" r="' +
         s / 2 +
-        '" stroke="black" stroke-width="1.5" fill="' +
+        '" stroke="black" stroke-width="2" fill="' +
         color +
         '" />' +
-        '</svg>',
+        "</svg>",
       /*         '<span style="' +
         style +
         '; vertical-align: bottom"' +
@@ -47,11 +47,11 @@ var Base = {
         'px" class="' +
         classes +
         '"></i></span>', */
-      className: 'map-sort-icon',
+      className: "map-sort-icon",
       iconAnchor: [10, 10],
-      iconSize: size
+      iconSize: size,
     });
-  }
+  },
 };
 
 module.exports = Base;

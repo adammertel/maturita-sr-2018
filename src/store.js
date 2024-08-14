@@ -1,6 +1,5 @@
-import { observable, action, computed, toJS } from 'mobx';
-import Base from './base.js';
-import turf from 'turf';
+import { action, computed, observable, toJS } from "mobx";
+import turf from "turf";
 
 export default class AppStore {
   @observable _mapExtent;
@@ -9,43 +8,43 @@ export default class AppStore {
   _districts = [];
   subjects = [
     {
-      id: 'm',
-      label: 'matematika'
+      id: "m",
+      label: "matematika",
     },
     {
-      id: 'sj',
-      label: 'slovenský jazyk'
+      id: "sj",
+      label: "slovenský jazyk",
     },
     {
-      id: 'aj',
-      label: 'anglický jazyk B1'
-    }
+      id: "aj",
+      label: "anglický jazyk B1",
+    },
   ];
 
   districtColors = [
-    '#a50026',
-    '#d73027',
-    '#f46d43',
-    '#fdae61',
-    '#fee08b',
-    '#ffffbf',
-    '#d9ef8b',
-    '#a6d96a',
-    '#66bd63',
-    '#1a9850',
-    '#006837'
+    "#a50026",
+    "#d73027",
+    "#f46d43",
+    "#fdae61",
+    "#fee08b",
+    "#ffffbf",
+    "#d9ef8b",
+    "#a6d96a",
+    "#66bd63",
+    "#1a9850",
+    "#006837",
   ].reverse();
 
   constructor() {
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
     this._map = observable.box(false);
     this._overDistrict = observable.box(false);
-    this._subject = observable.box('sj');
+    this._subject = observable.box("sj");
     this._mapExtent = observable.box(
       L.latLngBounds(L.latLng(47, 18), L.latLng(50, 23))
     );
-    const districtsData = require('./../data/okresy.json');
-    const schoolsData = require('./../data/schools.json');
+    const districtsData = require("./../data/districts.json");
+    const schoolsData = require("./../data/schools.json");
     this.schools = schoolsData;
     this._districts = districtsData.features;
   }
@@ -53,18 +52,20 @@ export default class AppStore {
   gradeColor(grade) {
     return grade && grade > 1
       ? this.districtColors[
-          Math.ceil(0.0001 + (grade - 1) / 4 * (this.districtColors.length - 1))
+          Math.ceil(
+            0.0001 + ((grade - 1) / 4) * (this.districtColors.length - 1)
+          )
         ]
-      : 'grey';
+      : "grey";
   }
 
   @computed
   get districts() {
-    return this._districts.map(district => {
+    return this._districts.map((district) => {
       return {
         geo: turf.flip(district.geometry).coordinates,
         name: district.properties.TXT,
-        grade: district.properties['avg_' + store.subject]
+        grade: district.properties["avg_" + store.subject],
       };
     });
   }
@@ -78,11 +79,10 @@ export default class AppStore {
   }
   @computed
   get overDistrict() {
-    console.log('overDistrict');
     return store._overDistrict === false
       ? false
       : store._districts.find(
-          d => d.properties.TXT === toJS(store._overDistrict)
+          (d) => d.properties.TXT === toJS(store._overDistrict)
         );
   }
 
@@ -90,7 +90,7 @@ export default class AppStore {
   get overDistrictSchools() {
     return store.overDistrict
       ? Object.values(store.schools).filter(
-          school => school.okres === store.overDistrict.properties.TXT
+          (school) => school.okres === store.overDistrict.properties.TXT
         )
       : [];
   }

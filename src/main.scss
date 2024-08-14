@@ -1,24 +1,81 @@
-$blue: #72d0eb;
-$pink: #ffb3b3;
-$pink-invert: #fff;
-$family-serif: 'Merriweather', 'Georgia', serif;
-
-$primary: $pink;
-$primary-invert: $pink-invert;
-$family-primary: $family-serif;
-
-@import '~bulma/bulma';
-@import '~leaflet/dist/leaflet.css';
-@import '~react-leaflet-markercluster/dist/styles.min.css';
-@import '~font-awesome/css/font-awesome.css';
+@import "~leaflet/dist/leaflet.css";
+@import "~react-leaflet-markercluster/dist/styles.min.css";
+@import "~font-awesome/css/font-awesome.css";
 
 #panel {
   z-index: 1000;
   position: absolute;
   bottom: 1%;
   right: 1%;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+
+  h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radio-option {
+    margin: 5px 0;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .radio-label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    .radio-custom {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid black;
+      margin-right: 10px;
+      position: relative;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+
+      &:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.3s ease;
+      }
+    }
+
+    input[type="radio"]:checked + .radio-custom {
+      background-color: blackf;
+      border-color: black;
+
+      &:after {
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+  }
 }
 
 #district-panel {
