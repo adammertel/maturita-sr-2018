@@ -153,8 +153,10 @@ export default class AppMap extends React.Component {
 
           <LayerGroup>
             <TileLayer
-              url="https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}.png"
-              attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
+              url="https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+              attribution={
+                '© <a href="/copyright">OpenStreetMap contributors</a>. Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>. <a href="https://wiki.osmfoundation.org/wiki/Terms_of_Use">Website and API terms</a>'
+              }
             />
           </LayerGroup>
           <Pane style={{ mixBlendMode: "multiply" }}>
