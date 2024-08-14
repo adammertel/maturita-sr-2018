@@ -1,22 +1,19 @@
-import React, { Component } from 'react';
-import Base from './../base';
-import { observable, action } from 'mobx';
-import { observer } from 'mobx-react';
+import { observer } from "mobx-react";
+import React from "react";
 import {
-  Map,
-  LayerGroup,
-  TileLayer,
-  WMSTileLayer,
-  GeoJSON,
-  ScaleControl,
   AttributionControl,
+  LayerGroup,
+  Map,
+  Marker,
   Pane,
   Polygon,
-  Marker,
-  Tooltip
-} from 'react-leaflet';
-import MarkerClusterGroup from 'react-leaflet-markercluster';
-require('leaflet.markercluster.placementstrategies');
+  Popup,
+  ScaleControl,
+  TileLayer,
+} from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-markercluster";
+import Base from "./../base";
+require("leaflet.markercluster.placementstrategies");
 
 @observer
 export default class AppMap extends React.Component {
@@ -26,18 +23,18 @@ export default class AppMap extends React.Component {
 
   style() {
     return {
-      position: 'absolute',
+      position: "absolute",
       left: 0,
       right: 0,
       bottom: 0,
-      top: 0
+      top: 0,
     };
   }
 
   mapStyle() {
     return {
-      width: '100%',
-      height: '100%'
+      width: "100%",
+      height: "100%",
     };
   }
 
@@ -48,6 +45,7 @@ export default class AppMap extends React.Component {
   handleOverDistrict(district) {
     store.setOverDistrict(district.name);
   }
+
   handleOutDistrict() {
     store.cancelOverDistrict();
   }
@@ -55,25 +53,88 @@ export default class AppMap extends React.Component {
   render() {
     const zoom = store.map ? store.map.getZoom() : 0;
 
+    const containerStyle = { marginTop: "4px" };
+    const listStyle = { listStyle: "circle", marginLeft: "10px", padding: 0 };
+    const listItemStyle = {
+      display: "list-item",
+      marginBottom: "2px",
+      marginLeft: "5px",
+    };
+
+    const listItemLineStyle = {
+      display: "flex",
+      gap: "2px 2px",
+      alignItems: "center",
+    };
+
+    const gradeStyle = (grade) => ({
+      display: "flex",
+      backgroundColor: store.gradeColor(grade),
+      padding: "1px 5px",
+      fontWeight: "bold",
+      borderRadius: "3px",
+      marginLeft: "5px",
+    });
+
     const schoolsMarkers = Object.values(store.schools)
-      .filter(s => s[store.subject + '_n'])
+      .filter((s) => s[store.subject + "_n"])
       //.filter((s, si) => si < 10)
-      .filter(s => parseInt(s[store.subject + '_z'], 10))
-      .filter(s => s.x && s.y)
+      .filter((s) => parseInt(s[store.subject + "_z"], 10))
+      .filter((s) => s.x && s.y)
       .map((school, si) => {
-        const size = parseInt(school[store.subject + '_n'], 10) / 10 + 5;
+        const size = parseInt(school[store.subject + "_n"], 10) / 6 + 10;
         return (
           <Marker
             key={si}
             position={[parseFloat(school.y), parseFloat(school.x)]}
             icon={Base.icon(
-              store.gradeColor(school[store.subject + '_z']),
+              store.gradeColor(school[store.subject + "_z"]),
               size
-            )}
-          >
-            <Tooltip direction="right">
-              <h4>{school.nazov}</h4>
-            </Tooltip>
+            )}>
+            <Popup direction="right">
+              <div>
+                <div style={{ fontWeight: "bold" }}>{school.nazov}</div>
+                <div>{school.adresa}</div>
+                <div>{school.okres}</div>
+                <div>{school.mesto}</div>
+
+                <div style={containerStyle}>
+                  <ul style={listStyle}>
+                    {school.sj_z && (
+                      <li key="sj" style={listItemStyle}>
+                        <div style={listItemLineStyle}>
+                          Slovenský jazyk:
+                          <div style={gradeStyle(school.sj_z)}>
+                            {school.sj_z}
+                          </div>
+                          ({school.sj_n} študentov)
+                        </div>
+                      </li>
+                    )}
+                    {school.m_z && (
+                      <li key="m" style={listItemStyle}>
+                        <div style={listItemLineStyle}>
+                          Matematika:
+                          <div style={gradeStyle(school.m_z)}>{school.m_z}</div>
+                          ({school.m_n} študentov)
+                        </div>
+                      </li>
+                    )}
+                    {school.aj_z && (
+                      <li key="aj" style={listItemStyle}>
+                        <div style={listItemLineStyle}>
+                          Anglický jazyk B1:
+                          <div style={gradeStyle(school.aj_z)}>
+                            {school.aj_z}
+                          </div>
+                          ({school.aj_n} študentov)
+                        </div>
+                      </li>
+                    )}
+                  </ul>
+                </div>
+              </div>
+            </Popup>
           </Marker>
         );
       });
@@ -86,30 +147,54 @@ export default class AppMap extends React.Component {
           ref="map"
           style={this.mapStyle()}
           attributionControl={false}
-          bounds={store.mapExtent}
-        >
+          bounds={store.mapExtent}>
           <ScaleControl position="topleft" imperial={false} />
           <AttributionControl position="bottomleft" />
 
           <LayerGroup>
             <TileLayer
-              url="http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
+              url="https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}.png"
               attribution="&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
             />
           </LayerGroup>
-          <Pane>
-            {zoom < 11 &&
-              store.districts.map(district => {
+          <Pane style={{ mixBlendMode: "multiply" }}>
+            {zoom < 13 &&
+              store.districts
+                .filter((district) => {
+                  const selected = store.overDistrict
+                    ? store.overDistrict.properties.TXT === district.name
+                    : false;
+                  return selected;
+                })
+                .map((district) => {
+                  return (
+                    <Polygon
+                      key={district.name}
+                      positions={district.geo}
+                      fillColor={store.gradeColor(district.grade)}
+                      fillOpacity={1}
+                      style={{ mixBlendMode: "multiply" }}
+                      weight={2}
+                      color={"black"}
+                      smoothFactor="1"
+                    />
+                  );
+                })}
+          </Pane>
+          <Pane style={{ mixBlendMode: "multiply" }}>
+            {zoom < 13 &&
+              store.districts.map((district) => {
                 return (
                   <Polygon
                     key={district.name}
                     positions={district.geo}
                     fillColor={store.gradeColor(district.grade)}
-                    fillOpacity={0.6}
-                    weight="1"
-                    color="white"
+                    fillOpacity={0.4}
+                    style={{ mixBlendMode: "multiply" }}
+                    weight={1}
+                    color={"white"}
                     smoothFactor="1"
-                    onMouseMove={this.handleOverDistrict.bind(this, district)}
+                    onMouseOver={this.handleOverDistrict.bind(this, district)}
                     onMouseOut={this.handleOutDistrict.bind(this)}
                   />
                 );
@@ -123,8 +208,7 @@ export default class AppMap extends React.Component {
               elementsPlacementStrategy="clock"
               animate={false}
               singleMarkerMode={true}
-              spiderLegPolylineOptions={{ weight: 0 }}
-            >
+              spiderLegPolylineOptions={{ weight: 0 }}>
               {schoolsMarkers}
             </MarkerClusterGroup>
           </Pane>

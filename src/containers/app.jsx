@@ -1,11 +1,10 @@
-import React from 'react';
-import { observer } from 'mobx-react';
+import { observer } from "mobx-react";
+import React from "react";
 
-import Base from './../base';
-import AppMap from './map';
-import ErrorBoundary from './errorboundary';
-import Panel from './panel';
-import DistrictPanel from './districtpanel';
+import DistrictPanel from "./districtpanel";
+import ErrorBoundary from "./errorboundary";
+import AppMap from "./map";
+import Panel from "./panel";
 
 @observer
 export default class App extends React.Component {

@@ -1,1 +1,0 @@
-## this folder will be copied to ./build on npm run deploy
